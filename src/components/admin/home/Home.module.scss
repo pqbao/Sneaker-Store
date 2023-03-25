@@ -1,0 +1,52 @@
+.home {
+  background-color: #f6f6f6;
+  padding: 2rem;
+  h2 {
+    color: var(--dark-blue) !important;
+    font-weight: 600;
+  }
+ 
+  .info-box {
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  
+  .card {
+    // border: 1px solid #ccc;
+    // border-bottom: 3px solid var(--light-blue);
+    color: #f6cb6d;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    transition: all .4s;
+    color: var(--dark-blue);
+
+
+    h4 {
+      font-size: 1.4rem;
+      font-weight: 600;
+      color: var(--dark-blue);
+    }
+
+    h3 {
+      font-weight: 600;
+
+    }
+  }
+  .card:hover {
+    border-radius: 5px;
+    transform: translateY(-10px);
+    box-shadow: 0 7px 0 -2px #f85959,
+     0 15px 0 -4px #39a2db,
+     0 16px 10px -3px #39a2db;
+     h3 {
+      color: #f85959;
+    }
+    h4 {
+      color:#025c8c;
+    }
+   }
+
+  
+}
